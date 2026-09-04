@@ -42,6 +42,22 @@
 
             string pagesText = "464";
             Console.WriteLine(Convert.ToInt32(pagesText));
+            //answer 8
+            string yeartext = "2023";
+            int year = int.Parse(yeartext);
+            string badText = "abc";
+            int bad;
+            bool flag = int.TryParse(badText, out bad);
+
+
+            if (flag)
+            {
+                Console.WriteLine("valid num");
+            }
+            else
+            {
+                Console.WriteLine("invalid num");
+            }
         }
 
     }
