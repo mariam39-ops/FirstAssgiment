@@ -38,6 +38,10 @@
             //answer 6
             double price2 = 49.99;
             int p = (int)price2;//explicit casting unsafe cast;
+            //answer 7
+
+            string pagesText = "464";
+            Console.WriteLine(Convert.ToInt32(pagesText));
         }
 
     }
