@@ -70,6 +70,12 @@
             int cop = (int)og;
             Console.WriteLine(og);
             Console.WriteLine(cop);
+            //answer 11
+            int? Year = null;
+            Console.WriteLine(Year.HasValue);
+            Year = 2023;
+            Console.WriteLine(Year);
+
         }
 
     }
