@@ -13,7 +13,9 @@
             Console.WriteLine(book1.Equals(book1));
             Console.WriteLine(book1.GetHashCode());
             Console.WriteLine(book1.GetType());
-
+            //answer 3
+            //int pages = "464"; compile time erro
+            int pages = 464;
         }
 
     }
