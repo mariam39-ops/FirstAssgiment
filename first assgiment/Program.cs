@@ -85,6 +85,12 @@
             string? name = "ahmed";
             string na = name!;
             Console.WriteLine(na);
+            //answer 14
+            book2?.Title = null;
+            Console.WriteLine(book2?.Title ?? "unimeted");
+            book2?.Title ??= "Ahmed";
+            Console.WriteLine(book2.Title);
+
 
         }
 
