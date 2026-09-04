@@ -90,6 +90,11 @@
             Console.WriteLine(book2?.Title ?? "unimeted");
             book2?.Title ??= "Ahmed";
             Console.WriteLine(book2.Title);
+            //answer 15
+            string? name2 = "Ahmed";
+            string ne = name2!;
+
+
 
 
         }
