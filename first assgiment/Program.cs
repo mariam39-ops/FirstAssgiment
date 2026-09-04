@@ -16,6 +16,23 @@
             //answer 3
             //int pages = "464"; compile time erro
             int pages = 464;
+            //answer 4
+
+            try
+            {
+                int x = 10;
+                int y = 0;
+                Console.WriteLine(x / y);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("cannt divided by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+            
         }
 
     }
