@@ -75,6 +75,10 @@
             Console.WriteLine(Year.HasValue);
             Year = 2023;
             Console.WriteLine(Year);
+            //answer 12
+            string? reviewer = null;
+            Console.WriteLine(reviewer != null);
+
 
         }
 
