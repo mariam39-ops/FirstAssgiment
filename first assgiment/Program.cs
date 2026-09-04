@@ -35,6 +35,9 @@
             //answer 5
             int Pages = 300;
             double pages1 = pages;//implict casting save casting
+            //answer 6
+            double price2 = 49.99;
+            int p = (int)price2;//explicit casting unsafe cast;
         }
 
     }
