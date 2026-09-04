@@ -32,7 +32,9 @@
             {
                 Console.WriteLine("Done");
             }
-            
+            //answer 5
+            int Pages = 300;
+            double pages1 = pages;//implict casting save casting
         }
 
     }
