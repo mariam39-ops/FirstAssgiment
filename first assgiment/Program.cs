@@ -78,7 +78,13 @@
             //answer 12
             string? reviewer = null;
             Console.WriteLine(reviewer != null);
-
+            //answer13
+            Book? book2 = null;
+            Console.WriteLine(book2?.Title);
+            Console.WriteLine(book2?.Title ?? "ulmited");
+            string? name = "ahmed";
+            string na = name!;
+            Console.WriteLine(na);
 
         }
 
