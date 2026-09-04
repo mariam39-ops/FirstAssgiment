@@ -58,6 +58,12 @@
             {
                 Console.WriteLine("invalid num");
             }
+
+            //answer 9
+            int pagess = 464;
+            string pag = pages.ToString();
+            Console.WriteLine(pag);
+            Console.WriteLine(pag.GetType());
         }
 
     }
