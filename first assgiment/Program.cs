@@ -64,6 +64,12 @@
             string pag = pages.ToString();
             Console.WriteLine(pag);
             Console.WriteLine(pag.GetType());
+            //answer 10
+            int copies = 100;
+            object og = copies;
+            int cop = (int)og;
+            Console.WriteLine(og);
+            Console.WriteLine(cop);
         }
 
     }
